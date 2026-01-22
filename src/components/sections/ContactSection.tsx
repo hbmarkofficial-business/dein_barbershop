@@ -51,7 +51,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Königstraße 73, 90402 Nürnberg
+                    Johannisstraße 23, Nuremberg 90419
                   </p>
                 </div>
               </div>
@@ -63,10 +63,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a 
-                    href="tel:091199284458" 
+                    href="tel:01522 1817071" 
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    091199284458
+                    01522 1817071
                   </a>
                 </div>
               </div>
@@ -78,7 +78,11 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. - Sa. 09:00–20:00 Uhr
+                    Mo. - Do. 09:00–19:00 Uhr
+                    <br />
+                    Fr. 09:00–20:00 Uhr
+                    <br />
+                    Sa. 09:00-18:00 Uhr
                   </p>
                 </div>
               </div>
@@ -90,7 +94,7 @@ export const ContactSection = () => {
                 Rechts unten Chat starten
               </Button>
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:091199284458">Jetzt Anrufen</a>
+                <a href="tel:015221817071">Jetzt Anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -100,14 +104,14 @@ export const ContactSection = () => {
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.8984580156325!2d11.07820457689239!3d49.44863615898781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f577dba3fe8fb%3A0xf35014ab621cb12b!2sBarber%20Style%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769024008379!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.432623142442!2d11.064701376892808!3d49.45743975836284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a3e2ee4dc9%3A0xa78dd749b6475e35!2sDein%20Barber%20Shop!5e0!3m2!1sde!2sde!4v1769089274631!5m2!1sde!2sde"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Standort Barber Style Nürnberg"
+                  title="Standort Dein Barber Shop"
                 />
               </div>
 
@@ -127,4 +131,5 @@ export const ContactSection = () => {
     </section>
   );
 };
+
 
